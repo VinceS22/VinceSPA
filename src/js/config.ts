@@ -1,7 +1,7 @@
 import { Config } from '../types';
 
 const config: Config = {
-  repoName: '/your-repo-name',
+  repoName: '/VinceSPA',
   routes: {
     home: '/',
     about: '/about',
