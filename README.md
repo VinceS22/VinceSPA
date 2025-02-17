@@ -2,7 +2,7 @@
 
 ## Note
 
-This project was generated with help from Claude (Anthropic's AI). I'm currently reviewing and understanding how everything connects together. What you see here is a template that I've modified to create "vince-repo". If you've stumbled upon this, please note that this is my first attempt at creating a React SPA with the intent of hooking up to GitHub pages, and I'm still learning about Vite and its configurations.
+This project was generated with help from Claude (Anthropic's AI). I'm currently reviewing and understanding how everything connects together. What you see here is a template that I've modified to create "vincespa". If you've stumbled upon this, please note that this is my first attempt at creating a React SPA with the intent of hooking up to GitHub pages, and I'm still learning about Vite and its configurations.
 
 ## Setup
 
