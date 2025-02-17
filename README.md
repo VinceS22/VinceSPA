@@ -6,16 +6,12 @@ This project was generated with help from Claude (Anthropic's AI). I'm currently
 
 ## Setup
 
-1. Configure repository name:
-   - In `src/js/config.ts`: Update `repoName`
-   - In `public/404.html`: Update redirect path
-
-2. Install dependencies:
+1. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Start development server:
+2. Start development server:
 ```bash
 npm run dev
 ```
