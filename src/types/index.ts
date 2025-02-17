@@ -9,6 +9,8 @@ export interface Route {
 export interface Config {
   repoName: string;
   routes: {
-    [key: string]: string;
+    home: string;
+    about: string;
+    contact: string;
   };
 }
