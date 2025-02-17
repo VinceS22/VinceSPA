@@ -16,7 +16,7 @@ class RedirectManager {
 
       sessionStorage.removeItem('redirect');
       const path = new URL(redirect).pathname;
-      window.history.replaceState(null, null, path);
+      window.history.replaceState(null, '', path);
       return true;
     } catch (error) {
       console.error('Failed to restore path:', error);
