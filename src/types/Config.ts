@@ -1,5 +1,5 @@
 export interface Config {
-    repoName: '/VinceSPA',
+    repoName: string,
     routes: {
         home: string;
         about: string;
