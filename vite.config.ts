@@ -12,7 +12,7 @@ export default defineConfig({
       name: 'handle-404-template',
       writeBundle() {
         const template404Path = path.resolve(__dirname, 'public/404.html');
-        const output404Path = path.resolve(__dirname, 'dist/404.html');
+        const output404Path = path.resolve(__dirname, './', '404.html');
 
         let content = fs.readFileSync(template404Path, 'utf-8');
         content = content.replace('%__REPO_NAME__%', `/${repoName}`);
@@ -23,8 +23,9 @@ export default defineConfig({
   ],
   base: `/${repoName}`,
   build: {
-    outDir: 'dist',
-    sourcemap: true
+    outDir: './', // Changed from 'dist' to './'
+    sourcemap: true,
+    emptyOutDir: false // This prevents deleting .git directory
   },
   define: {
     __REPO_NAME__: JSON.stringify(repoName)
