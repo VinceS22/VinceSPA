@@ -27,12 +27,12 @@
   "main": "main.tsx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VinceS22/VinceSPA.git"
+    "url": "git+https://github.com/VinceS22/vinces22.github.io.git"
   },
   "author": "Vince Smith",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VinceS22/VinceSPA/issues"
+    "url": "https://github.com/VinceS22/vinces22.github.io/issues"
   },
-  "homepage": "https://github.com/VinceS22/VinceSPA#readme"
+  "homepage": "https://vinces22.github.io"
 }
