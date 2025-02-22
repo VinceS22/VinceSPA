@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import fs from 'fs';
 import path from 'path';
 
-const repoName = process.env.NODE_ENV === 'development' ? '/' : 'https://vinces22.github.io';
+const repoName = process.env.NODE_ENV === 'development' ? '' : 'vinces22.github.io';
 
 export default defineConfig({
   plugins: [
@@ -21,7 +21,7 @@ export default defineConfig({
       }
     }
   ],
-  base: `${repoName}`,
+  base: `/${repoName}`,
   build: {
     outDir: './', // Changed from 'dist' to './'
     sourcemap: true,
