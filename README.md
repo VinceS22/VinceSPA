@@ -6,9 +6,9 @@ This project was generated with help from Claude (Anthropic's AI). I'm currently
 
 ## Setup
 
-1. Configure repository name:
-   - In `src/js/config.ts`: Update `repoName`
-   - In `public/404.html`: Update redirect path
+1. Configure for your repository:
+   - For user sites (username.github.io), the base is already set to `/`
+   - For project sites, update `vite.config.ts` to set `base: '/your-repo-name/'`
 
 2. Install dependencies:
 ```bash
@@ -44,3 +44,12 @@ src/
 ```
 
 Built with Vite, TypeScript, and React. Configured for automatic deployment to GitHub Pages.
+
+## Deployment
+
+This project is configured to deploy automatically to GitHub Pages using GitHub Actions:
+
+1. Push changes to the `main` branch
+2. The GitHub Actions workflow will build the project
+3. Built files are uploaded as a deployment artifact
+4. GitHub Pages serves the site directly from this artifact
